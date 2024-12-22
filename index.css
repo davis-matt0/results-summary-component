@@ -6,13 +6,67 @@
 
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Hanken Grotesk", sans-serif;
+}
+
+.result-section {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin: 0;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+}
+
+.result-container {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  padding: 1.5em;
+  border-radius: 50%;
+}
+
+.your-result-p {
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.result {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.result-goal {
+  margin: 0;
+  color: hsl(241, 100%, 89%);
+  opacity: 70%;
+  font-size: 1rem;
+}
+
+.result-feedback {
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.result-description {
+  color: hsl(241, 100%, 89%);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1rem;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  width: 50%;
+  border-radius: 100px;
+  /* padding: 5em; */
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
