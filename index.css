@@ -86,7 +86,7 @@ body {
 
 .result-description {
   color: hsl(241, 100%, 89%);
-  width: 80%;
+  max-width: 85%;
   margin: 0 auto;
   font-size: 1rem;
 }
@@ -151,4 +151,31 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 750px) {
+  .flex {
+    display: flex;
+    margin: 8em auto 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 1.5em;
+  }
+  .result-section {
+    border-radius: 1.5em;
+    padding: 4.5em 0;
+    width: 30%;
+  }
+  .summary-section {
+    width: 30%;
+    border-radius: 1.5em;
+    box-shadow: 10px 10px 10px 0 whitesmoke;
+  }
+  .your-result-p {
+    font-size: 1.5rem;
+  }
+  .result-description {
+    width: 65%;
+  }
 }
